@@ -24,3 +24,10 @@ count = 0
 while count<5:
     print(count)
     count+=1
+print("******************")
+
+tul = (1,2,3,"ex","abc")
+for i in tul:
+    if i == "ex":
+     continue
+    print(i)
