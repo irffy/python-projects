@@ -27,15 +27,30 @@
 # else:
 #     print("String not found")    
 
-import os
-import sys
+# import os
+# import sys
 
-a = os.getenv("a")
-b= os.getenv("b")
-print(a,b)
-c= sys.argv[1]
-d= sys.argv[2]
-print(c,d)
-e= int(input("Enter 1st numb:"))
-f = int(input("Enter 2nd num:"))
-print(e+f)
+# a = os.getenv("a")
+# b= os.getenv("b")
+# print(a,b)
+# c= sys.argv[1]
+# d= sys.argv[2]
+# print(c,d)
+# e= int(input("Enter 1st numb:"))
+# f = int(input("Enter 2nd num:"))
+# g= str(f)
+# print(type(g))
+# print(e+f)
+
+# n = 10
+# for i in range(1,n+1):
+#     print(i)
+
+# st = "Irfan"
+# # for i in st:
+# #     print(i)
+
+# for i in st:
+#     if i == "f":
+#         continue
+#     print(i)    
