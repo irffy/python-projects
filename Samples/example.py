@@ -54,3 +54,15 @@
 #     if i == "f":
 #         continue
 #     print(i)    
+# Open file in write mode and write content
+
+# with open("test.txt", "w") as f:
+#   f.write("Hello Irfan!")
+
+# with open("test.txt", "r") as f:
+#     t = f.read()
+#     print(t)
+
+# with open("test.txt", "a") as f:
+#     f.write("\nHello Ahmed!!")
+
