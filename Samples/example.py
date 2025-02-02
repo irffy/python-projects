@@ -66,3 +66,24 @@
 # with open("test.txt", "a") as f:
 #     f.write("\nHello Ahmed!!")
 
+# data = [
+#     {"timeline": 1, "name": "Alice"},
+#     {"timeline": 3, "name": "Bob"},
+#     {"timeline": 9, "name": "Charlie"},
+#     {"timeline": 11, "name": "David"},
+#     {"timeline": 18, "name": "Eve"}
+# ]
+# for i in data:
+#     # print(i)
+#     print(i["timeline"])
+#     print(i["name"])
+
+# def decor(a):
+#     print("Hello Ahmed!!")
+#     return a
+
+# @decor
+# def test():
+#   print("Hello Irfan!!")
+
+# test()  
