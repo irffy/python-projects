@@ -17,12 +17,25 @@
 # stripped_text = text.strip("_")
 # print("Stripped text:", stripped_text)
 
-import re
-text = "apple,banana,orange,grape"
-pattern = "apple"
-res = re.search(pattern,text)
-print(res)
-if res:
-    print("Pattern found")
-else:
-    print("String not found")    
+# import re
+# text = "apple,banana,orange,grape"
+# pattern = "apple"
+# res = re.search(pattern,text)
+# print(res)
+# if res:
+#     print("Pattern found")
+# else:
+#     print("String not found")    
+
+import os
+import sys
+
+a = os.getenv("a")
+b= os.getenv("b")
+print(a,b)
+c= sys.argv[1]
+d= sys.argv[2]
+print(c,d)
+e= int(input("Enter 1st numb:"))
+f = int(input("Enter 2nd num:"))
+print(e+f)
