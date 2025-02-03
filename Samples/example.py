@@ -94,20 +94,16 @@
 
 # arr = [2, 3, 6, 6, 5]
 # du = list(set(arr)) #Removes duplicates using set and then converts to list
-# s = du.sort(reverse=True)
+# du.sort(reverse=True)
 # print(du)
 # print(du[2])
 
-def isprime(n):
-    if n <2:
-      return False
+# def isprime(n):
+#     if n <2:
+#       return False
 
-    for i in range(2, int(n**0.5)+1) :
-        if n%i ==0:
-            return False
-    return True        
+#     for i in range(2, int(n**0.5)+1) :
+#         if n%i ==0:
+#             return False
+#     return True        
 
-
-n = int(input("Enter a number:"))   
-x= isprime(n)
-print(x)
