@@ -107,3 +107,15 @@
 #             return False
 #     return True        
 
+# txt = "Hello World Python"
+# print(txt)
+# a = txt.split()
+# print(a)
+# print(" ".join(a[::-1]))
+
+# def is_anagram(str1, str2):
+#     return sorted(str1) == sorted(str2)
+
+# # Example usage
+# print(is_anagram("listen", "silent"))  # Output: True
+# print(is_anagram("hello", "world"))    # Output: False
