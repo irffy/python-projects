@@ -140,17 +140,74 @@
 # else:
 #     print("bye")    
 
-def is_prime(n):
-    if n < 2:
-        return False
-    for i in range(2,int(n**0.5)+1):
-        if n%i == 0:
-            return False
-    return True        
+# def is_prime(n):
+#     if n < 2:
+#         return False
+#     for i in range(2,int(n**0.5)+1):
+#         if n%i == 0:
+#             return False
+#     return True        
+
+# n = int(input("Enter a number:"))
+# x= is_prime(n)   
+# if x :
+#     print("this is prime")
+# else:
+#  print("this is not prime")    
+
+# word = input("Enter a word: ").lower()
+# print(word)
+# pattern = "aeiou"
+
+# def count_vowels(word, pattern):
+#     count = 0
+#     for char in word:  # Iterate through each character in the input
+#         if char in pattern:
+#             count += 1
+#     return count
+
+# x = count_vowels(word, pattern)
+# print(x)
+
+# n = int(input("Enter a number: "))
+
+# def snap_pop(n):
+#     for i in range(1, n + 1):
+#         if i % 3 == 0 and i % 5 == 0 and i % 7 == 0:
+#             print("SnapCracklePop")  # Fixed: It should print all three
+#         elif i % 3 == 0 and i % 5 == 0:
+#             print("SnapCrackle")  # Handles multiples of 3 and 5
+#         elif i % 3 == 0 and i % 7 == 0:
+#             print("SnapPop")  # Handles multiples of 3 and 7
+#         elif i % 5 == 0 and i % 7 == 0:
+#             print("CracklePop")  # Handles multiples of 5 and 7
+#         elif i % 3 == 0:
+#             print("Snap")
+#         elif i % 5 == 0:
+#             print("Crackle")    
+#         elif i % 7 == 0:
+#             print("Pop")       
+#         else:
+#             print(i)  
+
+# snap_pop(n)
 
 n = int(input("Enter a number:"))
-x= is_prime(n)   
-if x :
-    print("this is prime")
-else:
- print("this is not prime")    
+
+def snap_pop(n):
+    
+    for i in range(1,n+1):
+        # print(i)
+        j=""
+        # print(j)
+        if i%3 ==0:
+            j = j +"Snap"
+        if i%5 ==0:
+            j = j +"Crackle"
+        if i%5 ==0:
+            j = j +"Pop"    
+           
+        print(j if j else i)
+
+
+snap_pop(n)
