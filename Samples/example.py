@@ -119,3 +119,38 @@
 # # Example usage
 # print(is_anagram("listen", "silent"))  # Output: True
 # print(is_anagram("hello", "world"))    # Output: False
+
+
+# def is_anagram(str1, str2):
+#     return sorted(str1) == sorted(str2)
+
+# i = "Irfan"
+# j = "nafri"
+# # x = is_anagram(i,j)    
+# # print(x)
+# m  = i.lower()
+# print(m)
+# k= (sorted(i))
+# print(k)
+# l= (sorted(j))
+# print(l)
+
+# if sorted(i) == sorted(j):
+#     print("hi")
+# else:
+#     print("bye")    
+
+def is_prime(n):
+    if n < 2:
+        return False
+    for i in range(2,int(n**0.5)+1):
+        if n%i == 0:
+            return False
+    return True        
+
+n = int(input("Enter a number:"))
+x= is_prime(n)   
+if x :
+    print("this is prime")
+else:
+ print("this is not prime")    
